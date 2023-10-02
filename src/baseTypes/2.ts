@@ -1,5 +1,7 @@
-let anything = -20;
+type Data = number | string | {};
+
+let anything: Data = -20;
 anything = 'Text';
 anything = {};
 
-export {};
+export { anything };
