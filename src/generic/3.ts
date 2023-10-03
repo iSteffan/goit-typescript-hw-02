@@ -7,4 +7,4 @@ function merge<A extends {}, B extends {}>(objA: A, objB: B): A & B {
   return Object.assign(objA, objB);
 }
 
-export { merge };
+export {};

@@ -13,4 +13,4 @@ getPromise().then(data => {
   console.log(data);
 });
 
-export { getPromise };
+export {};

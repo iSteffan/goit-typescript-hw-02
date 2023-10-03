@@ -4,4 +4,4 @@ let anything: Data = -20;
 anything = 'Text';
 anything = {};
 
-export { anything };
+export {};

@@ -28,4 +28,4 @@ const page2: Page = {
   status: 'close',
 };
 
-export { page1, page2 };
+export {};

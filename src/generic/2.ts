@@ -23,4 +23,4 @@ function compare(
   };
 }
 
-export { compare };
+export {};
