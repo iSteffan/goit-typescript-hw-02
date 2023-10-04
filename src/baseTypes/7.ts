@@ -14,8 +14,5 @@ enum DayOfTheWeek {
 }
 
 function isWeekend(day: DayOfTheWeek): boolean {
-  if (day === DayOfTheWeek.SAT || day === DayOfTheWeek.SUN) {
-    return true;
-  }
-  return false;
+  return day === DayOfTheWeek.SAT || day === DayOfTheWeek.SUN;
 }
